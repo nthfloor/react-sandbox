@@ -1,0 +1,24 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "jasmine": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "plugins": ["prettier", "react"],
+    "extends": [
+        "plugin:react/recommended",
+        "eslint:recommended",
+        "plugin:prettier/recommended"
+    ],
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "16.4.2"
+        }
+    }
+}
