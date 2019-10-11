@@ -1,12 +1,13 @@
 import React from 'react'
-import About from 'core/About'
-import ContactUs from 'core/ContactUs'
+// import ShoppingList from 'core/ShoppingList'
+import Game from 'core/Game'
 
 const Home = () => (
   <div className="Home">
-    <p>This is Home</p>
-    <About />
-    <ContactUs />
+    <h1>This is the Home page</h1>
+    
+    {/* <ShoppingList name="Nathan" /> */}
+    <Game />
   </div>
 )
 
