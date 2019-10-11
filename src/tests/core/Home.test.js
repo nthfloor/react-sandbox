@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ContactUs from './index'
+import Home from 'core/Home'
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  ReactDOM.render(<ContactUs />, div)
+  ReactDOM.render(<Home />, div)
   ReactDOM.unmountComponentAtNode(div)
 })
